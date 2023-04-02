@@ -7,7 +7,7 @@ The aim of this analysis is to develop a prediction model that can aid Alphabet 
 * **Libraries and methods used to determine the models include:** 
     * Pandas
     * sklearn.preprocessing 
-        * StandandScaler
+        * StandardScaler
     * sklearn.model_selection
         * train_test_split 
     * TensorFlow 
