@@ -40,12 +40,12 @@ The aim of this analysis is to develop a prediction model that can aid Alphabet 
         * `len(X_train[0])` was used to determine the shape of the model. 
         * Two hidden layers were used containing `80` and `30` neurons. 
         * The activation function used for the hidden layers is `relu` and `sigmoid` for the output layer.  
-        * Model 1 has an accuracy of `72%`, which is acceptable giv en that the objective is to predict the success of applicants. However, a higher accuracy of 90% or more would be preferable for a more successful model.  
+        * Model 1 has an accuracy of `72%`, which is acceptable given that the objective is to predict the success of applicants. However, a higher accuracy of 90% or more would be preferable for a more successful model.  
         
     * In **Model 2 - Optimization**:  
         * To improve the accuracy, Model 2 was developed, which achieved an accuracy rate of `79%`. The modifications made to the model included:
+
             * Dropping only `EIN` column. 
-            
             ![](AlphabetSoupCharity/Images/droppedCols.jpg)
 
             * Created binning to `NAME` with a cutoff equal 5. 
