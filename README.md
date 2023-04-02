@@ -46,18 +46,24 @@ The aim of this analysis is to develop a prediction model that can aid Alphabet 
         * To improve the accuracy, Model 2 was developed, which achieved an accuracy rate of `79%`. The modifications made to the model included:
 
             * Dropping only `EIN` column. 
+
             ![](AlphabetSoupCharity/Images/droppedCols.jpg)
 
             * Created binning to `NAME` with a cutoff equal 5. 
+
             ![](AlphabetSoupCharity/Images/binningName.jpg)
 
-            * The use of three hidden layers with neurons of `130`, `80`, and `50`. 
+            * The use of three hidden layers with neurons of 
+            `130`, `80`, and `50`. 
+
             ![](AlphabetSoupCharity/Images/modeling.jpg)
 
             * The epoch was decreased to `50`. 
+
             ![](AlphabetSoupCharity/Images/epoch.jpg)
 
             * Model 2 accuracy. 
+            
             ![](AlphabetSoupCharity/Images/model2.jpg)
 
 
