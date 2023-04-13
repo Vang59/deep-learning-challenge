@@ -71,7 +71,7 @@ The aim of this analysis is to develop a prediction model that can aid Alphabet 
 In summary, the results showed that Model 2 had a higher accuracy rate of 79%, which is a good model for the business case. This model can help Alphabet Soup to narrow down the applicants that should be funded based on their success rate, although a higher accuracy rate of 90% or more would provide even better results. To improve the accuracy, a different approach could be used, such as supervised learning and a combination of different types of algorithms, such as decision tree, random forest, and support vector machine (SVM), each tackling different areas of the data set. This approach could help to address the limitations of using a single model and improve the accuracy of the predictions. 
 * **Decision Tree:** Uses a tree structure to represent a number of possibility paths and an outcome for each path. 
 * **Random Forest:** Classify inputs based on multiple decision trees. 
-* **Support Vector Machine (SVM):** Separating classes by a straight line. 
+* **Support Vector Machine (SVM):** Finding the best decision boundary that separates the classes in all possible features. 
 
 #### References
 IRS. Tax Exempt Organization Search Bulk Data Downloads. [https://www.irs.gov/](https://www.irs.gov/charities-non-profits/tax-exempt-organization-search-bulk-data-downloads)
